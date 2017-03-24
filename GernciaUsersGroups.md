@@ -71,14 +71,11 @@ gpasswd -a $usuario $grupo
 	Menu
 }
 
-
-
 RmUserGrupo(){
 echo "Digirte o nome do usuario que deseja remover do grupo"
 read usuario
 echo "Digirte o nome do grupo"
 read grupo
-
 gpasswd -d $usuario $grupo
 	Menu
 }
