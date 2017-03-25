@@ -33,4 +33,4 @@ alias users="awk -F: '(\$3 > 999) {print \$1}' /etc/passwd"
 export HISTSIZE=1000
 export HISTCONTROL='erasedups'
 export HISTTIMEFORMAT='%d-%m-%y %H:%M'
-########################################################
+
