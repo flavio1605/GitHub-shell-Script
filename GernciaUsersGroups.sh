@@ -1,4 +1,14 @@
 #!/bin/bash
+#
+# Autor		: Flavio Ferreira Bastos
+# E-Mail	: <flavio1605@bol.com.br>
+# Data Criacao	: 24/03/2017
+#
+#
+#
+#
+###################################################
+
 clear
 Menu(){
 echo "---------------------------------------------"
