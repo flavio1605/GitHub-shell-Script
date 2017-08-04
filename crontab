@@ -1,0 +1,12 @@
+
+crontab
+
+
+# ** ** ** ** ** root  echo "teste" >> /home/teste2.txt
+# ** ** ** ** 05 root echo "teste" >> /root/teste_script2.txt
+#  03 9-11 ** ** ** root /usr/local/bin/./file
+
+# Filtra os logs de restart de serviços
+# 53 14 ** ** ** root   /root/archives/./filtro.sh
+ 10 15 ** ** ** root    /root/archives/./lista.sh
+
