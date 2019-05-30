@@ -1,0 +1,16 @@
+for arquivoum in $(ls -1 | egrep '*10.24.208.*.txt')
+do
+  for arquivonovodois in $(ls -1 | egrep '*10.24.208.*.txt')
+  do
+    	
+    if [ $arquivoum == $arquivonovodois ]; then
+      echo "pula $arquivoum"
+    else
+      #faz o que tem que fazer
+      diferentes=$(diff -q $arquivoum $arquivonovodois | egrep 'diferentes' | awk '{print $7}')
+      ...   
+    fi
+      
+  done  
+done
+ 
