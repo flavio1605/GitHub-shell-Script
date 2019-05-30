@@ -1,3 +1,4 @@
+#!/bin/bash
 for arquivoum in $(ls -1 | egrep '*10.24.208.*.txt')
 do
   for arquivonovodois in $(ls -1 | egrep '*10.24.208.*.txt')
